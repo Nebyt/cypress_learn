@@ -4,9 +4,10 @@
     "esModuleInterop": true,
     "target": "ES2021",
     "moduleResolution": "node",
-    "sourceMap": true,
-    "outDir": "dist"
+    "sourceMap": false,
+    "outDir": "dist",
+    "types": ["cypress", "node"]
   },
   "lib": ["ES2021"],
-  "extends": ["@tsconfig/node16/tsconfig.json",]
+  "include": ["**/*.ts"],
 }
